@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+<script language="JavaScript">
+function okno_zamknij_Paw()
+            {
+            window.close()
+            }
+var m_Paw=prompt("Podaj m:","");
+var m_Paw=parseFloat(m_Paw);
+document.write("<p>m=" + m_Paw + "<br>");
+document.write("1/" + m_Paw + "=1/" + (m_Paw + 1) + "+1/" + m_Paw * (m_Paw + 1) + "</p>");
+</script>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_Paw()"/>
+</body>
+</html>
