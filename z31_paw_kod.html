@@ -2,20 +2,20 @@
 <html>
 <head>
 <script type="text/javascript">
-var mebel = {
+var pociag = {
   wysokosc: '100cm',
   szerokosc: '80cm',
-  z_czego_wykonane: 'drewno',
+  z_czego_wykonane: 'metal',
   pokaz: function () {
     document.write(this.wysokosc + 'x' + this.szerokosc + ' ' + this.z_czego_wykonane);
   }
 };
-mebel.pokaz();
-mebel.rodzaj = 'szafka';
-mebel.wypisz = function() {
+pociag.pokaz();
+pociag.rodzaj = 'szafka';
+pociag.wypisz = function() {
   alert('Rodzaj: ' + this.rodzaj);
 };
-mebel.wypisz();
+pociag.wypisz();
 </script>
 </head>
 <body>
