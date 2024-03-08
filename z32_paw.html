@@ -1,20 +1,20 @@
 ﻿<html>
 <head>
 <script type="text/javascript">
-var mebel = {
+var pociag = {
   wysokosc: '100cm',
   szerokosc: '80cm',
-  z_czego_wykonane: 'drewno',
+  z_czego_wykonane: 'metal',
   pokaz: function() {
     document.write('Rozmiar: ' + this.wysokosc + 'x' + this.szerokosc + '<br>Z czego wykonane: ' + this.z_czego_wykonane);
   }
 }
-mebel.pokaz();
-mebel.co_to = "szafka";
-mebel.wypisz = function() {
+pociag.pokaz();
+pociag.co_to = "pendolino";
+pociag.wypisz = function() {
   alert('Co to: ' + this.co_to);
 }
-mebel.wypisz();
+pociag.wypisz();
 function klient(imie_klienta, nazwisko_klienta, pesel_klienta, login_klienta) {
   this.imie = imie_klienta;
   this.nazwisko = nazwisko_klienta;
