@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jan Bucia 3G</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div style="color:red; font-size:50px;">
+    <script language="JavaScript">
+var a_paw, b_paw, c_paw;
+do {
+    a_paw = parseFloat(prompt("Podaj długość boku a:"));
+    b_paw = parseFloat(prompt("Podaj długość boku b:"));
+    c_paw = parseFloat(prompt("Podaj długość boku c:"));
+
+    while (!(a_paw > 0 && b_paw > 0 && c_paw > 0 && a_paw + b_paw > c_paw && a_paw + c_paw > b_paw && c_paw + b_paw > a_paw)) {
+        alert("Podane wartości nie tworzą trójkąta. Podaj inne liczby.");
+
+        a_paw = parseFloat(prompt("Podaj długość boku a:"));
+        b_paw = parseFloat(prompt("Podaj długość boku b:"));
+        c_paw = parseFloat(prompt("Podaj długość boku c:"));
+    }
+    document.write("Podane wartości tworzą trójkąt.");
+} while (false);
+</script>
+
+  </div>
+</body>
+</html>

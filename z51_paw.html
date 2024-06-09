@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head> 
+ <meta charset="utf-8">
+ <title> Przykład użycia pętli </title>
+</head> 
+<body> 
+ <script language="JavaScript">
+document.write('<p style="margin-top: 2cm; color: red;">Pawella</p>');
+ document.write('<p style="margin-top: 5mm; color: blue;">Przykładowe użycie pętli.</p>');
+ var n_paw=parseFloat (prompt("Ile razy powtórzyć=",""));
+ var inicjaly_paw=prompt("Podaj swoje inicjały=","");
+ for ( var i_paw=1; i_buc<=n_paw; i_paw++)
+ {
+ for ( var k_paw=1; k_paw<=i_paw; k_paw++)  
+ {
+ document.write("&nbsp;");  
+ }
+ document.write(i_paw+"_"+inicjaly_paw+"_"+i_paw+"<br>");
+ }
+ </script>
+</body> 
+</html>

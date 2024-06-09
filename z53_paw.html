@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Jakub Pawella 3G</title>
+</head>
+<body>
+    <div style="color:red;font-size:50px;">
+        <script language="JavaScript">
+            var liczba1_paw = prompt("Podaj pierwszą liczbę:");
+            var liczba2_paw = prompt("Podaj drugą liczbę:");
+            var a_paw = (liczba1_paw.length % 4) + 5;
+            var b_paw = (liczba2_paw.length % 6) + 20;
+            for (var i_paw = 0; i_paw < b_paw + 2; i_paw++) {
+                document.write("*");
+            }
+            document.write("<br>");
+            for (var i_paw = 0; i_paw < a_paw; i_paw++) {
+                document.write("*");
+                for (var k_paw = 0; k_paw < b_paw; k_paw++) {
+                    document.write("&nbsp;&nbsp;");
+                }
+                document.write("*<br>");
+            }
+            for (var i_paw = 0; i_paw < b_paw + 2; i_paw++) {
+                document.write("*");
+            }
+            document.write("<br>");
+        </script>
+    </div>
+</body>
+</html>

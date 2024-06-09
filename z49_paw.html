@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jakub Pawella 3G</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<div style="color:red;font-size:50px;">
+  <script>
+    var liczba_paw = prompt("Podaj liczbę: ");
+    var silnia_paw = 1;
+    if (liczba_paw == 0) {
+        document.write("0! = 1");
+    } else {
+        for (var i_paw = 1; i_paw <= liczba_paw; i_paw++) {
+            silnia_paw *= i_paw;
+        }
+        document.write(liczba_paw + "! = " + silnia_paw);
+    }
+  </script>
+</body>
+</html>
